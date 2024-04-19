@@ -1,0 +1,38 @@
+header {
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	a {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		svg {
+			height: 4rem;
+			margin: 0 2.5rem;
+		}
+	}
+
+	nav {
+		ul {
+			display: flex;
+			padding: 0;
+			li {
+				list-style: none;
+				padding: 0 2.5rem;
+			}
+		}
+		h2 {
+			font-size: 1.2rem;
+			color: #4936cc;
+		}
+	}
+
+	.external-links {
+		position: absolute;
+		right: 0;
+		display: flex;
+		align-items: center;
+		padding: 1rem;
+	}
+}

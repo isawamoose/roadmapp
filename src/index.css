@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+	font-family: Roboto;
+}
+
+body {
+	margin: 0;
+
+	h1,
+	h2,
+	h3 {
+		color: #4936cc;
+	}
+}

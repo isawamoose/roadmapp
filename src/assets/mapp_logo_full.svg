@@ -1,0 +1,21 @@
+<svg
+id="logo"
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 600 300"
+shapeRendering="geometricPrecision"
+textRendering="geometricPrecision">
+<path
+    d="M75.8878,129.8878q0-29.82338,148.22439-54c0,0-24.17662,148.22439-54,148.22439h-1.19815v-93.02625h-93.02625c0-.3981,0-.79749,0-1.19815l.00001.00001Zm0,94.2244c0,0,0-18.39938,0-55.19815l25.875002-.000003h29.323148v55.198153h-55.19815Z"
+    transform="translate(-64.076171 0)"
+    fill="#4936cc"
+/>
+<text
+    fontFamily="Roboto"
+    fontSize="150"
+    fontWeight="700"
+    transform="translate(210 201.338143)"
+    fill="#4936cc">
+    <tspan y="0" fontWeight="700" strokeWidth="0">
+        Mapp
+    </tspan>
+</text>
