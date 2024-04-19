@@ -1,6 +1,24 @@
-<svg id="etWpi1myaES1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 150" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><g transform="translate(.000001 0.000001)"><text dx="0" dy="0" font-family="&quot;etWpi1myaES1:::Roboto&quot;" font-size="48" font-weight="700" transform="translate(18.404021 93.520346)" fill="#4936cc" stroke-width="0"><tspan y="0" font-weight="700" stroke-width="0">
-ROADM</tspan></text><text dx="0" dy="0" font-family="&quot;etWpi1myaES1:::Roboto&quot;" font-size="48" font-weight="700" transform="translate(188.169804 93.520346)" fill="#8a36bd" stroke-width="0"><tspan y="0" font-weight="700" stroke-width="0">
-APP 
-</tspan></text></g>
-
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 300 150"
+    shapeRendering="geometricPrecision"
+    textRendering="geometricPrecision">
+    <g>
+        <text
+            fontFamily="Roboto"
+            fontSize="48"
+            fontWeight="700"
+            transform="translate(18.404021 93.520346)"
+            fill="#424874">
+            <tspan>ROADM</tspan>
+        </text>
+        <text
+            fontFamily="Roboto"
+            fontSize="48"
+            fontWeight="700"
+            transform="translate(188.169804 93.520346)"
+            fill="#ec3a7e">
+            <tspan>APP</tspan>
+        </text>
+    </g>
 </svg>

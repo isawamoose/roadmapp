@@ -5,7 +5,7 @@ export function Pricing() {
 		<>
 			<div className="categories">
 				<div className="category session">
-					<h3>Session</h3>
+					<h3>Individual Session</h3>
 					<p>$100/hr</p>
 					<p className="discount">$75/hr for students</p>
 				</div>
@@ -15,7 +15,7 @@ export function Pricing() {
 					<p className="discount">$2000 for students</p>
 				</div>
 				<div className="category subscription">
-					<h3>Subscription</h3>
+					<h3>Monthly Subscription</h3>
 					<p>$500/mo</p>
 					<p className="discount">$400/mo for students</p>
 				</div>

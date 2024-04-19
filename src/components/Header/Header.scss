@@ -1,4 +1,7 @@
+@use '../../styles/variables' as *;
+
 header {
+	height: 5.5rem;
 	width: 100vw;
 	display: flex;
 	align-items: center;
@@ -20,11 +23,18 @@ header {
 			li {
 				list-style: none;
 				padding: 0 2.5rem;
+
+				a.active {
+					text-decoration-line: underline;
+					text-decoration-thickness: 0.1rem;
+					text-underline-offset: 0.4rem;
+					text-decoration-color: $text-secondary-color;
+				}
 			}
 		}
 		h2 {
 			font-size: 1.2rem;
-			color: #4936cc;
+			color: $text-secondary-color;
 		}
 	}
 
