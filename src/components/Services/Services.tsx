@@ -5,7 +5,7 @@ export function Services() {
 		<>
 			<div className="heading">
 				<h1>
-					Navigate <span>app development.</span>
+					Navigate <span>the development journey.</span>
 				</h1>
 			</div>
 			<div className="map-item marker">
@@ -26,7 +26,7 @@ export function Services() {
 				<h3>Technology Training</h3>
 			</div>
 			<div className="map-item map-line">
-				<h3>Development Support</h3>
+				<h3>Development Coaching</h3>
 			</div>
 			<div className="map-item marker">
 				<svg

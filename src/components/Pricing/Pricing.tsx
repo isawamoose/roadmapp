@@ -5,12 +5,12 @@ export function Pricing() {
 		<>
 			<div className="categories">
 				<div className="category session">
-					<h3>Individual Session</h3>
+					<h3>Individual Consulting Session</h3>
 					<p>$100/hr</p>
 					<p className="discount">$75/hr for students</p>
 				</div>
 				<div className="category package">
-					<h3>Package</h3>
+					<h3>The Journey Package</h3>
 					<p>$2500</p>
 					<p className="discount">$2000 for students</p>
 				</div>
