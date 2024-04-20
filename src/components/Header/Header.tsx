@@ -5,7 +5,7 @@ export function Header() {
 	return (
 		<>
 			<header>
-				<a href="/">
+				<NavLink to="/services">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 300 150"
@@ -30,7 +30,7 @@ export function Header() {
 							</text>
 						</g>
 					</svg>
-				</a>
+				</NavLink>
 				<nav>
 					<ul>
 						<li>

@@ -3,7 +3,9 @@ import './Footer.scss';
 export function Footer() {
 	return (
 		<>
-			<footer></footer>
+			<footer>
+				<p>Created by Stephen Amos</p>
+			</footer>
 		</>
 	);
 }

@@ -4,6 +4,7 @@
 	margin: 3rem;
 	left: 5%;
 	position: relative;
+	width: 80vw;
 	// text-align: center;
 
 	h1 {
@@ -11,47 +12,6 @@
 		color: $text-primary-color;
 		span {
 			color: $text-secondary-color;
-		}
-	}
-}
-
-.map-item {
-	left: 10%;
-	position: relative;
-	margin: 0;
-	padding: 2rem 3rem;
-	display: flex;
-	align-items: center;
-
-	h3 {
-		color: $text-secondary-color;
-		margin: 0 3px;
-		font-size: 1.8rem;
-	}
-
-	&.map-line {
-		border-left: 2px dashed $text-primary-color;
-
-		&::before {
-			content: '';
-			border-radius: 100%;
-			background-color: $text-primary-color;
-			height: 0.7rem;
-			width: 0.7rem;
-			left: -54.5px;
-			position: relative;
-		}
-	}
-
-	&.marker {
-		padding: 0.8rem 0;
-		svg {
-			transform: translateX(-30px);
-		}
-		h3 {
-			font-size: 2.5rem;
-			margin: 0;
-			color: $text-primary-color;
 		}
 	}
 }

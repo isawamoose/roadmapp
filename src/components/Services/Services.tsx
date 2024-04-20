@@ -1,3 +1,4 @@
+import { JourneyItem } from './JourneyItem';
 import './Services.scss';
 
 export function Services() {
@@ -5,40 +6,25 @@ export function Services() {
 		<>
 			<div className="heading">
 				<h1>
-					Navigate <span>the development journey.</span>
+					Navigate <span>your development journey.</span>
 				</h1>
 			</div>
-			<div className="map-item marker">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="64"
-					height="64"
-					fill="#ec3a7e"
-					viewBox="0 0 16 16">
-					<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-				</svg>
-				<h3>Idea</h3>
-			</div>
-			<div className="map-item map-line">
-				<h3>Architecture Design</h3>
-			</div>
-			<div className="map-item map-line">
-				<h3>Technology Training</h3>
-			</div>
-			<div className="map-item map-line">
-				<h3>Development Coaching</h3>
-			</div>
-			<div className="map-item marker">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="64"
-					height="64"
-					fill="#ec3a7e"
-					viewBox="0 0 16 16">
-					<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-				</svg>
-				<h3>App</h3>
-			</div>
+			<ul className="journey">
+				<JourneyItem text="Idea" marker={true} />
+				<JourneyItem
+					text="Architecture Design"
+					details="Get a map of your app's structure, from front end to back end."
+				/>
+				<JourneyItem
+					text="Technology Training"
+					details="Learn the tools needed for building your app, such as React and AWS"
+				/>
+				<JourneyItem
+					text="Development Support"
+					details="Talk to our experts as you move forward with your app."
+				/>
+				<JourneyItem text="App" marker={true} />
+			</ul>
 		</>
 	);
 }
