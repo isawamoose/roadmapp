@@ -10,20 +10,28 @@ export function Services() {
 				</h1>
 			</div>
 			<ul className="journey">
-				<JourneyItem text="Idea" marker={true} />
+				<JourneyItem
+					text="Idea"
+					marker={true}
+					details="Tell us what you want to build."
+				/>
 				<JourneyItem
 					text="Architecture Design"
-					details="Get a map of your app's structure, from front end to back end."
+					details="Get a tailored architecture design for your app, plus steps outlining the way forward."
 				/>
 				<JourneyItem
 					text="Technology Training"
-					details="Learn the tools needed for building your app, such as React and AWS"
+					details="Receive training to rapidly gain proficiency in the tools needed to build your app."
 				/>
 				<JourneyItem
 					text="Development Support"
-					details="Talk to our experts as you move forward with your app."
+					details="Get one-on-one consultations along your journey plus code reviews and feedback."
 				/>
-				<JourneyItem text="App" marker={true} />
+				<JourneyItem
+					text="App"
+					marker={true}
+					details="Celebrate reaching your destination with us."
+				/>
 			</ul>
 		</>
 	);

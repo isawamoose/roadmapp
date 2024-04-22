@@ -1,0 +1,38 @@
+@use '../../styles/variables' as *;
+
+.category {
+	border-radius: 1rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+	height: 28rem;
+	width: 20rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem;
+	padding: 1rem;
+
+	h3 {
+		font-size: 2rem;
+		text-align: center;
+		color: $text-primary-color;
+	}
+
+	p {
+		display: block;
+		font-size: 1.5rem;
+		font-style: bold;
+		color: $text-secondary-color;
+
+		&.discount {
+			font-size: 1rem;
+			color: #777777;
+		}
+	}
+
+	&.large {
+		height: 32rem;
+		width: 22rem;
+	}
+}

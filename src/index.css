@@ -1,8 +1,14 @@
 :root {
-	font-family: Roboto;
+	font-family: inter, sans-serif;
 }
 
 body {
 	margin: 0;
 	width: 100vw;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 500;
 }

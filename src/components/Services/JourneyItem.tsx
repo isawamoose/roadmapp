@@ -15,7 +15,7 @@ export function JourneyItem(props: JourneyItemProps) {
 				props.marker ? 'marker' : 'dashed-side'
 			}`}
 			onClick={() => {
-				if (!props.marker) setExpanded(!expanded);
+				setExpanded(!expanded);
 			}}>
 			{props.marker && (
 				<svg

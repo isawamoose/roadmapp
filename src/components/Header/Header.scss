@@ -16,9 +16,17 @@ header {
 		}
 	}
 
+	.tagline {
+		opacity: 0.8;
+	}
+
 	nav {
+		position: absolute;
+		right: 0;
+		margin: 0 2.5rem;
 		ul {
 			display: flex;
+			margin-left: 1rem;
 			padding: 0;
 			li {
 				list-style: none;
@@ -37,12 +45,34 @@ header {
 			color: $text-secondary-color;
 		}
 	}
+}
 
-	.external-links {
-		position: absolute;
-		right: 0;
-		display: flex;
-		align-items: center;
-		padding: 1rem;
+@media screen and (max-width: 768px) {
+	header {
+		a {
+			svg {
+				margin: 0 1rem;
+			}
+		}
+
+		.tagline {
+			display: none;
+		}
+
+		nav {
+			margin: 0 1rem;
+			ul {
+				li {
+					padding: 0 1rem;
+
+					a.active {
+						text-underline-offset: 0.3rem;
+					}
+				}
+			}
+			h2 {
+				font-size: 1rem;
+			}
+		}
 	}
 }

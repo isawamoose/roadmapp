@@ -2,16 +2,40 @@
 
 .heading {
 	margin: 3rem;
+	margin-top: 4rem;
 	left: 5%;
 	position: relative;
-	width: 80vw;
+	max-width: 80vw;
 	// text-align: center;
 
 	h1 {
-		font-size: 3.5rem;
+		font-size: 3rem;
 		color: $text-primary-color;
 		span {
 			color: $text-secondary-color;
 		}
+	}
+}
+
+.journey {
+	margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+	.heading {
+		margin: 2rem;
+		margin-top: 2rem;
+		left: 3%;
+		position: relative;
+		max-width: 80vw;
+
+		h1 {
+			font-size: 2.5rem;
+		}
+	}
+
+	.journey {
+		left: 5%;
+		margin-bottom: 2rem;
 	}
 }
